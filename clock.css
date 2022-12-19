@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+
+}
+
+
+.container{
+
+   
+    /* display:flex ; */
+    /* position: relative; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100% ;
+    width: 100% ;
+    
+    
+
+    
+}
+#my_clock{
+    
+    color: #17D4FE;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 7px;
+    font-size: 100px;
+    width: 100%;
+    
+
+
+    
+}
+#my_date{
+     
+    color: #17D4FE;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 7px;
+    font-size: 50px;
+    margin: 0px 10px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    
+}
+
+.position-check{
+    position: absolute;
+}
+canvas{
+    width: 100%;
+    width: 100%;
+}
